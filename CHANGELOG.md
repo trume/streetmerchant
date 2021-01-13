@@ -1,14 +1,12 @@
 # Changelog
 
-## [3.4.0](https://www.github.com/jef/streetmerchant/compare/v3.3.0...v3.4.0) (2021-01-12)
+## [3.4.0](https://www.github.com/jef/streetmerchant/compare/v3.3.0...v3.4.0) (2021-01-08)
 
 
 ### Features
 
 * add redis ([#1390](https://www.github.com/jef/streetmerchant/issues/1390)) ([fb82526](https://www.github.com/jef/streetmerchant/commit/fb82526a427e503fff1f1cf56b091ff0c8a5a96e))
-* **asus:** add outOfStock label ([#1653](https://www.github.com/jef/streetmerchant/issues/1653)) ([d0a4667](https://www.github.com/jef/streetmerchant/commit/d0a4667a643398d836652642b993107ed05619d8)), closes [#368](https://www.github.com/jef/streetmerchant/issues/368)
 * **azerty:** add ryzen 5000 series  ([#878](https://www.github.com/jef/streetmerchant/issues/878)) ([ca59777](https://www.github.com/jef/streetmerchant/commit/ca59777917777401affc5b72a68238983f286237))
-* **galaxus:** update selector, add out of stock check ([#1607](https://www.github.com/jef/streetmerchant/issues/1607)) ([c9cda1e](https://www.github.com/jef/streetmerchant/commit/c9cda1e4e597c7103a32c32c9e5a79824ad44de5))
 * **lookup:** add max price for xbox ([f34a808](https://www.github.com/jef/streetmerchant/commit/f34a808451b735c384f4b763cedd816c85ab7abc)), closes [#1436](https://www.github.com/jef/streetmerchant/issues/1436)
 * **lookup:** add protection against infinite recursion for Cloudflare ([#1505](https://www.github.com/jef/streetmerchant/issues/1505)) ([1cf618c](https://www.github.com/jef/streetmerchant/commit/1cf618c1c12d3ab94688139a8410bed181af3eb2)), closes [#1459](https://www.github.com/jef/streetmerchant/issues/1459) [#1490](https://www.github.com/jef/streetmerchant/issues/1490)
 * **lookup:** handle Cloudflare DDoS protection ([#1434](https://www.github.com/jef/streetmerchant/issues/1434)) ([f86a825](https://www.github.com/jef/streetmerchant/commit/f86a8259f37f0ed25b00e243b29aa28c3e68bdff)), closes [#1297](https://www.github.com/jef/streetmerchant/issues/1297)
@@ -21,7 +19,6 @@
 * **store:** add GPU and CPU support for Vuugo ([#1555](https://www.github.com/jef/streetmerchant/issues/1555)) ([8ab6e1f](https://www.github.com/jef/streetmerchant/commit/8ab6e1f1d801c3ae52987fe9e8550adbe2015ea6))
 * **store:** add pcking and acompc ([#1470](https://www.github.com/jef/streetmerchant/issues/1470)) ([beee355](https://www.github.com/jef/streetmerchant/commit/beee35556376056b31d6719fb090ce58b7ea985f))
 * **store:** add SG Location for Amazon and Newegg ([#1600](https://www.github.com/jef/streetmerchant/issues/1600)) ([ef926d2](https://www.github.com/jef/streetmerchant/commit/ef926d2282cedaef38bc3d4d427820f4aa65dc8d))
-* **twilio:** add support to have multiple numbers ([#1450](https://www.github.com/jef/streetmerchant/issues/1450)) ([83508bc](https://www.github.com/jef/streetmerchant/commit/83508bc5ea509aac0742c525a6434ef8f8001899))
 * **web:** properly set `for` attribute for labels ([#1626](https://www.github.com/jef/streetmerchant/issues/1626)) ([c0638d2](https://www.github.com/jef/streetmerchant/commit/c0638d2e4b923abacaf81fb09fd80948cd5e7ce9))
 
 
@@ -39,7 +36,6 @@
 * **proxy:** fix requests with proxies ([#1408](https://www.github.com/jef/streetmerchant/issues/1408)) ([f65df4c](https://www.github.com/jef/streetmerchant/commit/f65df4ce56891c368dab8dd6fe85a584cf9e6f49))
 * **proxy:** update proxy module ([#1451](https://www.github.com/jef/streetmerchant/issues/1451)) ([ab03702](https://www.github.com/jef/streetmerchant/commit/ab037029b654f5e169a97c9e7a2c4dfa6cf1e768)), closes [#1437](https://www.github.com/jef/streetmerchant/issues/1437)
 * **store:** link builder in UK stores ([#1486](https://www.github.com/jef/streetmerchant/issues/1486)) ([eb59dc3](https://www.github.com/jef/streetmerchant/commit/eb59dc3433c54027695fb68cfe69b1d90fce3fec))
-* **store:** Update 30 series links and models for store.asus.com ([#1645](https://www.github.com/jef/streetmerchant/issues/1645)) ([20bea85](https://www.github.com/jef/streetmerchant/commit/20bea85e411277f70b987675b53055b69d450e0f)), closes [#1637](https://www.github.com/jef/streetmerchant/issues/1637)
 * **store:** update missing/mislabeled cards for Canadian retailers ([#1574](https://www.github.com/jef/streetmerchant/issues/1574)) ([082776c](https://www.github.com/jef/streetmerchant/commit/082776cfca740ac0a22736f791c62705a62185be))
 * **store:** update out of stock detection for MediaMarkt and Saturn ([#1549](https://www.github.com/jef/streetmerchant/issues/1549)) ([4f86d24](https://www.github.com/jef/streetmerchant/commit/4f86d2462e5d1eba6a7d7839585c0fe8c1b70da5)), closes [#1545](https://www.github.com/jef/streetmerchant/issues/1545)
 * **webui:** handling of file serving ([#1383](https://www.github.com/jef/streetmerchant/issues/1383)) ([445689e](https://www.github.com/jef/streetmerchant/commit/445689efc49bf8edb0b5a027611f02ea0d0f126f))
