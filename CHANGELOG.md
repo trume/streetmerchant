@@ -1,11 +1,12 @@
 # Changelog
 
-## [3.5.0](https://www.github.com/jef/streetmerchant/compare/v3.4.1...v3.5.0) (2021-02-22)
+## [3.5.0](https://www.github.com/jef/streetmerchant/compare/v3.4.1...v3.5.0) (2021-02-25)
 
 
 ### Features
 
 * add restart time for leaking Chromium in Ubuntu ([#1880](https://www.github.com/jef/streetmerchant/issues/1880)) ([1009ce6](https://www.github.com/jef/streetmerchant/commit/1009ce6636c21c378121bd83b251a371a1b8568e))
+* add terraform infra as code for AWS fargate ([#1987](https://www.github.com/jef/streetmerchant/issues/1987)) ([d341ef7](https://www.github.com/jef/streetmerchant/commit/d341ef72aa6b74e54c11aeb455516b2a69a8a664))
 * clean up proxy logging with n/N in each lookup ([#1839](https://www.github.com/jef/streetmerchant/issues/1839)) ([8df4339](https://www.github.com/jef/streetmerchant/commit/8df4339bdb3d96cb448e3acb727fdc534688bfc0))
 * **notification:** add simple SmartThings switch activation ([#1902](https://www.github.com/jef/streetmerchant/issues/1902)) ([c22c960](https://www.github.com/jef/streetmerchant/commit/c22c960dc179f5ed74ae41a25178e6d2feed0bf9))
 * **notification:** add Streamlabs support ([#1872](https://www.github.com/jef/streetmerchant/issues/1872)) ([edb39f8](https://www.github.com/jef/streetmerchant/commit/edb39f8f05451c3cc1994c0beb2338bae04ab585))
